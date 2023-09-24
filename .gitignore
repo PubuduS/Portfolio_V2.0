@@ -11,6 +11,9 @@
 npm-debug.log
 yarn-error.log
 
+#Ignore commit message text file
+message.txt
+
 # IDEs and editors
 .idea/
 .project
