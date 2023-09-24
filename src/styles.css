@@ -186,7 +186,7 @@ address { font-style: italic; }
     margin-left: auto!important;
 }
 
-.pw-main-wrapper
+.pw-main-wrapper, .pw-main-content
 {
     display: flex;
     position: relative;

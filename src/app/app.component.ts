@@ -6,15 +6,9 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'portfolio2.0';
-
-  
-  constructor(private modalService: NgbModal) {
+export class AppComponent 
+{
+  constructor( private modalService: NgbModal ) 
+  {
   }
-
-  public open(modal: any): void {
-    this.modalService.open(modal);
-  }
-  
 }
