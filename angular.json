@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
@@ -88,8 +89,13 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "../node_modules/bootstrap/dist/css/bootstrap.css",
-              "src/styles.css"              
+              "src/styles.css",
+              "../node_modules/font-awesome/css/font-awesome.css",
+              "src/assets/css/slick-slider.css",
+              "src/assets/css/t-scroll.min.css",
+              "src/assets/css/responsive.css"
             ],
             "scripts": []
           }

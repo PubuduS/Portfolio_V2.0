@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { WelcomeComponent } from './dynamic_parts/welcome/welcome.component';
 import { AboutmeComponent } from './static_parts/aboutme/aboutme.component';
+import { SkillsComponent } from './static_parts/skills/skills.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,84 @@
+/*skills-full*/
+.pw-main-content
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;    
+}
+
+.container {
+    max-width: 1280px;
+    padding-top: 8%;
+}
+
+.skills-full {
+    background-color: #FACF5A;
+    padding: 100px 0 5%;
+}
+.skillst {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 64px;
+    position: relative;
+}
+.skillst h6 {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+.bar-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+.bar-container .bar {
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.bar-container .bar small {
+    display: none;
+}
+.skillst .title { display: none; }
+
+/*section-title*/
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title h2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.section-title p {
+    margin: 20px auto 0;
+    max-width: 55%;
+}
+/*text-skills*/
+.text-skills h3 {
+    font-size: 24px;
+    margin: 0 0 40px;
+    margin-top: 5%;
+    line-height: 29px;
+    font-weight: bold;
+}
+.text-skills h4 {
+    font-size: 16px;
+    margin: 0 0 19px;
+    line-height: 19px;
+    font-weight: bold;
+}
+.list-style-two.list-style-one li {
+    color: #0A192F;
+    margin-bottom: 16px;
+}
+.list-style-two.list-style-one li:before {
+    background-image: url("../../../assets/images/skills/black-list-shape.svg");
+}
